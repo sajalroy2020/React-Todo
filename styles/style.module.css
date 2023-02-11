@@ -1,0 +1,114 @@
+.food_img{
+    width: 20%;
+    height: 500px;
+}
+
+.card{
+    width: 500px;
+    background-color: #008080;
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+}
+.card h1{
+    text-align: center !important;
+    padding-bottom: 15px;
+}
+.card h5{
+    font-size: 15px;
+}
+.inputBox{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.inputBox input{
+    width: 300px;
+    height: 25px;
+}
+.inputBox label{
+    display: block;
+}
+.btn{
+    border: 0;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.alert_text{
+    color: rgb(224, 43, 43);
+    margin-top: 0;
+}
+
+.editList{
+    background-color: #28acac;
+    padding: 8px;
+    margin-top: 10px;
+    color: #fff;
+    position: relative;
+}
+.todo_delete{
+    float: right;
+    cursor: pointer;
+    border: 1px solid #021818;
+    border-radius: 3px;
+    margin-left: 5px;
+    position: absolute;
+    top: 26%;
+    right: 2%;
+}
+.todo_edit{
+    float: right;
+    cursor: pointer;
+    border: 1px solid #021818;
+    border-radius: 3px;
+    margin-left: 5px;
+    position: absolute;
+    top: 26%;
+    right: 14%;
+}
+.todo_chackBOx{
+    float: right;
+    cursor: pointer;
+    border: 1px solid #021818;
+    border-radius: 3px;
+    margin-left: 5px;
+    position: absolute;
+    top: 26%;
+    right: 23%;
+}
+
+/* card */
+.all_card{
+    width: 300px;
+    border: 2px solid #008080;
+    padding: 10px;
+    text-align: center;
+    background: #7c8f8f;
+}
+.all_card img{
+    width: 100%;
+    display: flex;
+}
+.all_cart{
+    display: flex;
+    gap: 50px;
+}
+.container{
+    padding: 0px 50px;
+}
+
+/* cart cart */
+.singlCard{
+    width: 300px;
+    background-color: #008080;
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+}
+.singlCard img{
+    width: 40%;
+    margin-right: 10px;
+}
